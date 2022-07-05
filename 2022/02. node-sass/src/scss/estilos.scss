@@ -1,7 +1,7 @@
-$primary:red;
+$primary: pink;
 
 body {
 	background-color: $primary;
 }
 
-@import 'algo';
+@import 'algo', 'otro'; 

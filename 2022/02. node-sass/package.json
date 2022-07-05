@@ -1,0 +1,11 @@
+{
+  "name": "02.-node-sass",
+  "version": "1.0.0",
+  "description": "La sintaxis es ```sass --watch origen:destino```",
+  "main": "index.js",
+  "scripts": {
+    "forest": "sass --watch src/scss/estilos.scss css/estilos.min.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}

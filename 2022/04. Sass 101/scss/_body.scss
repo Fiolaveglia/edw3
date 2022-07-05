@@ -11,62 +11,11 @@ body {
     color: #212529;
     text-align: left;
     background-color: #f0f3f1;
-}
+} 
 img {
     max-width: 100%;
 }
-/*header*/
-header {
-    background: #f0f3f1;
-    text-align: center;
-    font-family: 'Hind', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 4em;
-}
-header > * {
-    display: flex;
-    align-items: center;
-}
-header a {
-    text-decoration: none;
-    color: #334252;
-}
-header > a {
-    font-size: 34px;
-    font-weight: 700;
-}
-header a span {
-    width: 34px;
-    height: 34px;
-    display: inline-block;
-    background: #f75940;
-    line-height: 34px;
-    color: #fff;
-    border-radius: 6px;
-    text-align: center;
-}
-header li {
-    width: 60px;
-    list-style: none;
-}
-/*efecto debajo de elemento menú*/
-ul li:after {
-    content: '';
-    height: 2px;
-    background-color: #f75940;
-    display: block;
-    width: 0px;
-    margin: 5px auto;
-    transition: width 0.5s;
-}
-
-li:hover:after {
-    width: 100%;
-}
 /*Escenario 1*/
-
 .seccion-1 {
     padding: 100px 0;
     background: #f0f3f1;
@@ -74,25 +23,21 @@ li:hover:after {
     text-align: center;
     font-family: 'Hind', sans-serif;
 }
-
 .seccion-1 h3 {
     color: #334252;
     font-size: 40px;
     margin: 0 auto;
     font-weight: 600;
 }
-
 .seccion-1 h3 span {
     color: #f75940;
 }
-
 .seccion-1 h6 {
     margin-top: 15px;
     color: #5e6271;
     font-size: 20px;
     font-weight: 400;
 }
-
 .seccion-1 > a {
     font-family: 'Hind', sans-serif;
     display: inline-block;
@@ -107,11 +52,9 @@ li:hover:after {
     text-decoration: none;
     margin-top: 75px;
 }
-
 .seccion-1 > a:hover {
     background: #3dc7be;
 }
-
 .seccion-1 small {
     display: block;
     text-align: center;
@@ -125,9 +68,7 @@ li:hover:after {
     text-decoration: none;
     color: #8f96a8;
 }
-
 /*Escenario 2*/
-
 .seccion-2 {
     padding: 42px 289px;
     background: #fff;
@@ -135,7 +76,6 @@ li:hover:after {
     text-align: center;
     font-family: 'Hind', sans-serif;
 }
-
 .seccion-2 h3 {
     font-size: 38px;
     line-height: 46px;
@@ -148,23 +88,18 @@ li:hover:after {
     text-align: center;
     padding: 2.5em 0em;
 }
-
 .contenedor-redes ul li {
     display: inline-block;
     margin-right: 3.5em;
 }
-
 .contenedor-redes ul li a {
     text-decoration: none;
     color: #334252;
 }
-
 .seccion-2 img {
     display: block;
 }
-
 /*Escenario 3*/
-
 .seccion-3 {
     margin: 0;
     padding: 50px 0;
@@ -173,14 +108,12 @@ li:hover:after {
     text-align: center;
     font-family: 'Hind', sans-serif;
 }
-
 .seccion-3 h3 {
     font-size: 38px;
     color: #334252;
     margin-bottom: 24px;
     font-weight: 600;
 }
-
 .seccion-3-contenedor * {
     display: inline-block;
 }
@@ -190,26 +123,21 @@ li:hover:after {
     justify-content: center;
     align-items: center;
 }
-
 .seccion-3-contenedor h4 {
     font-size: 22px;
     color: #5e6271;
     font-weight: 400;
 }
-
 .seccion-3-contenedor span {
     display: block;
     color: #334252;
     font-size: 30px;
     font-weight: 700;
 }
-
 .seccion-3-componente2 {
     width: calc(100% / 3);
 }
-
 /*Escenario 4/5*/
-
 .seccion-4 {
     padding: 42px 200px;
     background: #fff;
@@ -217,7 +145,6 @@ li:hover:after {
     text-align: center;
     font-family: 'Hind', sans-serif;
 }
-
 .seccion-4 h3 {
     font-size: 38px;
     line-height: 46px;
@@ -225,7 +152,6 @@ li:hover:after {
     margin-bottom: 24px;
     font-weight: 600;
 }
-
 .seccion-4-contenedor > * {
     display: inline-block;
     width: calc(100% / 2 - 5px);
@@ -239,7 +165,6 @@ li:hover:after {
     margin-bottom: 16px;
     text-align: left;
 }
-
 .seccion-4-componente2 p {
     color: #5e6271;
     line-height: 28px;
@@ -247,9 +172,7 @@ li:hover:after {
     font-weight: 400;
     text-align: left;
 }
-
 /*Escenario 6*/
-
 .seccion-6 {
     background: #f0f3f1;
     padding: 42px 0px;
@@ -257,20 +180,17 @@ li:hover:after {
     text-align: left;
     font-family: 'Hind', sans-serif;
 }
-
 .seccion-6 > * {
     display: inline-block;
     width: calc(100% / 2 - 5px);
     vertical-align: top;
 }
-
 .seccion-6-componente1 > * {
     display: inline-block;
     vertical-align: top;
     width: 80%;
     margin-bottom: 2em;
 }
-
 .seccion-6-iconos {
     width: 75px;
     height: 75px;
@@ -278,7 +198,6 @@ li:hover:after {
     border-radius: 6px;
     margin-top: 0.5em;
 }
-
 .seccion-6-iconos span {
     font-size: 30px;
     color: #3dc7be;
@@ -286,7 +205,6 @@ li:hover:after {
     text-align: center;
     margin-left: 25px;
 }
-
 .seccion-6-contenedor2 h3,
 .seccion-7 h3 {
     font-size: 36px;
@@ -299,14 +217,12 @@ li:hover:after {
 .seccion-6-texto {
     padding-left: 30px;
 }
-
 .seccion-6-texto h6 {
     color: #334252;
     font-size: 1.5em;
     margin: 0px 0 6px 0;
     font-weight: 600;
 }
-
 .seccion-6-texto p,
 .seccion-7 p {
     color: #5e6271;
@@ -315,9 +231,7 @@ li:hover:after {
     text-align: left;
     font-size: 16px;
 }
-
 /*Escenario 7*/ /*A h3 y p le da estilo escenario 6*/
-
 .seccion-7 {
     background: #fff;
     padding: 0 25em;
@@ -326,15 +240,8 @@ li:hover:after {
     text-align: center;
     font-family: 'Hind', sans-serif;
 }
-
 .seccion-7 img {
     display: block;
     width: 100%;
     margin: auto;
-}
-
-/*Escenario 8*/
-
-.seccion-8 {
-    margin-top: 0;
 }
